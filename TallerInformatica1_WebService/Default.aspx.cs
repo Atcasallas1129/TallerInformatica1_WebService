@@ -21,7 +21,7 @@ namespace TallerInformatica1_WebService
             {
                 LblResultado.Text = SumatoriaNumeros.sumaNumeros(Convert.ToInt32(TxtPrimerNumero.Text), Convert.ToInt32(TxtSegundoNUmero.Text)).ToString();
             }
-            catch (SystemException ex)
+            catch (SystemException)
             {
                 LblResultado.Text = "Error al calcular la sumatoria de la informacion ingresada, verifique los numeros a sumar e intente de nuevo";
             }
