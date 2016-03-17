@@ -12,15 +12,15 @@
         <h1>Cálculo de sumatoria de dos numeros</h1>
         <table>
             <tr>
-                <td>Ingrese el primer número:</td>
+                <td><asp:Label ID="lblSolicitudPrimerNumero" runat = "server">Ingrese el primer número:</asp:Label></td>
                 <td><asp:TextBox ID="TxtPrimerNumero" runat="server"></asp:TextBox></td>
             </tr>
             <tr>
-                <td>Ingrese el segundo número:</td>
+                <td><asp:Label ID="lblSolicitudSegundoNumero" runat = "server">Ingrese el segundo número:</asp:Label></td>
                 <td><asp:TextBox ID="TxtSegundoNUmero" runat="server"></asp:TextBox></td>
             </tr>
             <tr>
-                <td><asp:Button ID="BtnCalculoSuma" runat="server" Text="Calcular Sumatoria" OnClick="BtnCalculoSuma_Click" /></td>
+                <td><asp:Button ID="btnCalculoSuma" runat="server" Text="Calcular Sumatoria" OnClick="btnCalculoSuma_Click" /></td>
                 <td><asp:Label ID="LblResultado" runat="server" ForeColor="Red" Font-Size="XX-Large"></asp:Label></td>
             </tr>
         </table>

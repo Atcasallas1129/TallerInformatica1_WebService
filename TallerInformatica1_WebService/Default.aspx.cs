@@ -14,7 +14,7 @@ namespace TallerInformatica1_WebService
 
         }
 
-        protected void BtnCalculoSuma_Click(object sender, EventArgs e)
+        protected void btnCalculoSuma_Click(object sender, EventArgs e)
         {
             ServiceReferencesumaNumeros.WebService_SumaNumerosSoapClient SumatoriaNumeros = new ServiceReferencesumaNumeros.WebService_SumaNumerosSoapClient();
             try

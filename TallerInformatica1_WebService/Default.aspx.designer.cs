@@ -22,6 +22,15 @@ namespace TallerInformatica1_WebService {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
+        /// lblSolicitudPrimerNumero control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblSolicitudPrimerNumero;
+        
+        /// <summary>
         /// TxtPrimerNumero control.
         /// </summary>
         /// <remarks>
@@ -29,6 +38,15 @@ namespace TallerInformatica1_WebService {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TxtPrimerNumero;
+        
+        /// <summary>
+        /// lblSolicitudSegundoNumero control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblSolicitudSegundoNumero;
         
         /// <summary>
         /// TxtSegundoNUmero control.
@@ -40,13 +58,13 @@ namespace TallerInformatica1_WebService {
         protected global::System.Web.UI.WebControls.TextBox TxtSegundoNUmero;
         
         /// <summary>
-        /// BtnCalculoSuma control.
+        /// btnCalculoSuma control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnCalculoSuma;
+        protected global::System.Web.UI.WebControls.Button btnCalculoSuma;
         
         /// <summary>
         /// LblResultado control.
